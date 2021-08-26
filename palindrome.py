@@ -9,7 +9,7 @@ def palindrome(word):
     '''
     if list(word) == list(reversed(word)):
         return True
-    elif list(word) != list(reversed(word)):
+    else:
         return False
     
 print(palindrome("abba"))
