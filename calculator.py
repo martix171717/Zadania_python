@@ -21,8 +21,9 @@ def calculator(operation, number1, number2):
     else:
         return "Nie ma takiego działania do wyboru"
         exit(1)
-
-operation = int(input("Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie: "))
-number1 = int(input("podaj składnik 1."))
-number2 = int(input("podaj składnik 1."))
-print(calculator(operation, number1, number2))
+if __name__ == "__main__":
+    print("To kalkulator, który przyjmuje tylko dwie liczby. Potrafi dodawać, odejmować, mnożyć i dzielić.")
+    operation = int(input("Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie: "))
+    number1 = int(input("podaj składnik 1."))
+    number2 = int(input("podaj składnik 2."))
+    print(calculator(operation, number1, number2))
