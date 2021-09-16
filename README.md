@@ -24,3 +24,34 @@ Arguments:
     operation (+,-,* or /)
     number1
     number2
+
+Module 7
+ 1. Task: Cards
+ 
+ class BaseContact
+    def __init__(self, first_name, last_name, private_phone,email)
+ Arguments:
+ first_name, 
+ last_name, 
+ private_phone,
+ email
+ 
+ BaseContact subclass
+ class BusinessContact(BaseContact):
+    def __init__(self, position, company_name, business_phone, *args, **kwargs)
+    
+ Arguments:
+ first_name, 
+ last_name, 
+ private_phone,
+ email
+ position, 
+ company_name, 
+ business_phone
+ 
+ definition create_contacts 
+ def create_contacts(card_type, quantity):
+ It creates the lists of contacts based on arguments passsed. Card type can be either "BaseContact" relating to class BaseContact or "BusinessContact" relating to class "BusinessContact". 
+  Arguments:
+  card_type,
+  quantity
