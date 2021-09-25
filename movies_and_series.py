@@ -61,7 +61,7 @@ def search(title):
             return "This title does not appear in the Movies and Series Library"
 '''
 Przykład do sprawdzenia funkcji search oraz top_titles, bez użycia fakera,
-znajduje się w pliku Search_function
+znajduje się w pliku Search_function (https://github.com/martix171717/Zadania_python/blob/main/search_function.py)
 
 '''
 by_number =  sorted(movies_and_series, key=lambda i: i.number_of_plays)
